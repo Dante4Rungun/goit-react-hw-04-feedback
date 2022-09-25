@@ -1,0 +1,25 @@
+.statistic {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.statistic__title {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.statistic__info {
+    font-size: 24px;
+    cursor: pointer;
+    border-bottom: 2px solid rgba(229, 233, 233, 0.0);
+}
+
+.statistic__info + .statistic__info {
+    margin-top: 25px;
+}
+
+.statistic__info:hover {
+    border-bottom: 2px solid rgba(81, 193, 245, 0.952);
+}
